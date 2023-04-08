@@ -1,0 +1,26 @@
+{
+  "_data_files": [
+    {
+      "filename": "dataset.arrow"
+    }
+  ],
+  "_fingerprint": "ac427c4c6b48f7c3",
+  "_format_columns": [
+    "video-id",
+    "fold-ind",
+    "startphrase",
+    "sent1",
+    "sent2",
+    "gold-source",
+    "ending0",
+    "ending1",
+    "ending2",
+    "ending3",
+    "label"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_indexes": {},
+  "_output_all_columns": false,
+  "_split": null
+}

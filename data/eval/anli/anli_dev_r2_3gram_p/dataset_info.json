@@ -1,0 +1,50 @@
+{
+  "builder_name": null,
+  "citation": "@InProceedings{nie2019adversarial,\n    title={Adversarial NLI: A New Benchmark for Natural Language Understanding},\n    author={Nie, Yixin\n                and Williams, Adina\n                and Dinan, Emily\n                and Bansal, Mohit\n                and Weston, Jason\n                and Kiela, Douwe},\n    booktitle = \"Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics\",\n    year = \"2020\",\n    publisher = \"Association for Computational Linguistics\",\n}\n",
+  "config_name": null,
+  "dataset_size": null,
+  "description": "The Adversarial Natural Language Inference (ANLI) is a new large-scale NLI benchmark dataset,\nThe dataset is collected via an iterative, adversarial human-and-model-in-the-loop procedure.\nANLI is much more difficult than its predecessors including SNLI and MNLI.\nIt contains three rounds. Each round has train/dev/test splits.\n",
+  "download_checksums": null,
+  "download_size": null,
+  "features": {
+    "uid": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "premise": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "hypothesis": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "label": {
+      "num_classes": 3,
+      "names": [
+        "entailment",
+        "neutral",
+        "contradiction"
+      ],
+      "id": null,
+      "_type": "ClassLabel"
+    },
+    "reason": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://github.com/facebookresearch/anli/",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": null,
+  "splits": null,
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": null
+}
