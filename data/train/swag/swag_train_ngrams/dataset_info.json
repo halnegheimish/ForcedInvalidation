@@ -1,0 +1,86 @@
+{
+  "builder_name": null,
+  "citation": "@inproceedings{zellers2018swagaf,\n    title={SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference},\n    author={Zellers, Rowan and Bisk, Yonatan and Schwartz, Roy and Choi, Yejin},\n    booktitle = \"Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)\",\n    year={2018}\n}\n",
+  "config_name": null,
+  "dataset_size": null,
+  "description": "Given a partial description like \"she opened the hood of the car,\"\nhumans can reason about the situation and anticipate what might come\nnext (\"then, she examined the engine\"). SWAG (Situations With Adversarial Generations)\nis a large-scale dataset for this task of grounded commonsense\ninference, unifying natural language inference and physically grounded reasoning.\n\nThe dataset consists of 113k multiple choice questions about grounded situations\n(73k training, 20k validation, 20k test).\nEach question is a video caption from LSMDC or ActivityNet Captions,\nwith four answer choices about what might happen next in the scene.\nThe correct answer is the (real) video caption for the next event in the video;\nthe three incorrect answers are adversarially generated and human verified,\nso as to fool machines but not humans. SWAG aims to be a benchmark for\nevaluating grounded commonsense NLI and for learning representations.\n\nThe full data contain more information,\nbut the regular configuration will be more interesting for modeling\n(note that the regular data are shuffled). The test set for leaderboard submission\nis under the regular configuration.\n",
+  "download_checksums": null,
+  "download_size": null,
+  "features": {
+    "video-id": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "fold-ind": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "startphrase": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "sent1": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "sent2": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "gold-source": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "ending0": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "ending1": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "ending2": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "ending3": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "label": {
+      "num_classes": 4,
+      "names": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "id": null,
+      "_type": "ClassLabel"
+    },
+    "ending4": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://rowanzellers.com/swag/",
+  "license": "Unknown",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": null,
+  "splits": null,
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": null
+}

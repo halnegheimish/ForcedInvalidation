@@ -1,0 +1,19 @@
+{
+  "_data_files": [
+    {
+      "filename": "dataset.arrow"
+    }
+  ],
+  "_fingerprint": "c11290c459d38baf",
+  "_format_columns": [
+    "idx",
+    "label",
+    "sentence1",
+    "sentence2"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_indexes": {},
+  "_output_all_columns": false,
+  "_split": null
+}
